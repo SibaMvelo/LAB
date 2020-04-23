@@ -1,4 +1,4 @@
-# LAB
+# iLAB
 
 1. Create a file 
 2. Run ```cucumber -- init```
@@ -20,7 +20,7 @@
 ````
 This is calling your chrome and firefox driver. In addition your url.
 
-#Methods file 
+## Methods file 
 
 The ``Methods`` file I use for creating methods that come handy so that the steps file is clean. 
 Create a methods file and add the path to it on the ``env.rb`` file as follows:
@@ -32,7 +32,7 @@ require_relative '../../features/Methods/MethodsWarehouse.rb'
 include MethodsWarehouse
 ``
 
-#ElementsWarehouse
+## ElementsWarehouse
 
 The ``Warehouse`` is for collecting all elements so that I do not rewrite the elements since rewriting might take a while. You can create the file too.
 
