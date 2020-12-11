@@ -22,4 +22,4 @@ before_script:
 cucumber: 
   script:
    # - mkdir cucumber
-    - bundle exec cucumber 
+    - bundle exec cucumber /feature
