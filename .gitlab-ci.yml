@@ -10,6 +10,7 @@ cache:
 
 
 before_script:
+    - cd LAB/
     - gem install rspec_junit_formatter -v 0.2.3
     # - pip install junit2html
     - bundle install
