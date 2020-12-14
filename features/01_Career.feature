@@ -1,4 +1,6 @@
 Feature: Career
+
+
   Scenario: As a user, I want to register on careers and get an error for missing information
     Given I am on the careers page
     Then I navigate to the applications page
